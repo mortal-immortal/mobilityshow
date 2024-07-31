@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+.sub header{
+    margin-bottom: 40px;
+}
+
+/* 전시개요 */
+.overview h1{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.overview h2{
+    font-size: 18px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overview-1{
+    width: 100%;
+}
+.overview-2{
+    width: 60%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+/* 전시품목 */
+.item_content img{
+    width:100%;
+}
+.item_content h4{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.item_content p{
+    margin-bottom:70px;
+}
+
+
+
+/* 역대 모빌리비 쇼 */
+.exhibition img {
+    width: 80%;
+    border-radius: 25px;
+}
+.exhibition h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.exhibition_area {
+    width: 100%;
+    margin:0 auto;
+}
+.exhibition_area th  {
+    width: 25%;
+    text-align: center;
+    font-weight: normal;
+}
+
+.exhibition_area th span {
+    display: block;
+    width: 90%;
+    height: 35px;
+    line-height: 35px;
+    background: #1f2150;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.exhibition_area td {
+    text-align: left;
+}
+
+.exhibition button {
+    margin-top: 20px;
+    margin-bottom:50px;
+}
+
+.btn-mobility {
+    background:#ed7676 !important;
+    border-color: #ed7676 !important;
+    width: 100%;
+    margin-top:5px;
+}
+
+.btn-mobility .arrow {
+    width: 10%;
+    vertical-align: middle;
+    margin-left:10px;
+}
+
+/* 역대 모빌리비 쇼 모달창 */
+.black-bg {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: 25;
+}
+
+.white-bg {
+    position: fixed;
+    width: 450px;
+    max-width: 90vw;
+    min-height:500px;
+    max-height: 100vh;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 20px;
+}
+
+/* 참가문의 */
+.inquire_dot {
+    color:#ed7676;
+}
+.inquire_from {
+    border-top:2px solid #1f2150;
+    padding-top:10px;
+}
+
+/* 공지사항 */
+.page-gray {
+    color:gray;
+}
+  
